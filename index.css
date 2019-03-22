@@ -1,0 +1,23 @@
+body {
+    font-family: bitFont;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: bitFont;
+    src: url("font/slkscre.ttf");
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#game {
+    width: 100%;
+}
